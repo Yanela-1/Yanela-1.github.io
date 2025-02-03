@@ -1,0 +1,181 @@
+li, p{
+  margin: 0px;
+  font-family: Roboto;
+}
+
+li{
+  margin-bottom: 3px;
+}
+
+.container{
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+
+.button-div{
+  width: 30%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.05s;
+  border-radius: 10px;
+}
+
+.button p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  background-color: #225725;
+}
+
+.big-div {
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 70%;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 60px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.header-div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-div, .picture-div{
+  margin: 0;
+}
+
+.details-div{
+  margin-top: 20px;
+}
+
+.name{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.head-details{
+  margin-bottom: 5px;
+}
+
+.picture{
+  width: 170px;
+}
+
+.page-line{
+  margin-top: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.objective-div{
+  margin-bottom: 45px;
+}
+
+.objective-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.academic-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.academic-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column div, .right-column div {
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.left-column p{
+  font-style: italic;
+}
+
+.right-column{
+  margin-right: 30%;
+}
+
+.right-column p{
+  margin-bottom: 3px;
+}
+
+.skills-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sample-skills{
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.languages-div, .references-div{
+  margin-top: 50px;
+}
+
+.languages-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.languagesp{
+  margin-right: 24.6%;
+  margin-left: 29px;
+  margin-bottom: 3px;
+}
+
+.language{
+  display: inline-block;
+  margin-right: 25%; 
+  margin-left: 30px;
+  margin-bottom: 3px;
+}
+
+.proficiency{
+  display: inline-block;
+}
